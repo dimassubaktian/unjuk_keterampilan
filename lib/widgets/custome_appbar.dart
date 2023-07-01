@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
+import 'package:unjuk_keterampilan/pages/notification.dart';
 
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({
@@ -12,7 +13,9 @@ class CustomAppBar extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         IconButton(
-          onPressed: () {},
+          onPressed: () {
+            Scaffold.of(context).openDrawer();
+          },
           icon: const Icon(
             LineIcons.bars,
             color: Color(0xff000000),
@@ -27,7 +30,14 @@ class CustomAppBar extends StatelessWidget {
           ),
         ),
         IconButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const NotificationPage(),
+              ),
+            );
+          },
           icon: const Icon(LineIcons.bell),
         )
       ],

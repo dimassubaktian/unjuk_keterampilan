@@ -3,8 +3,11 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:line_icons/line_icons.dart';
 
 class LastReadCard extends StatelessWidget {
+  final String lastRead;
+
   const LastReadCard({
     super.key,
+    required this.lastRead,
   });
 
   @override
@@ -61,16 +64,19 @@ class LastReadCard extends StatelessWidget {
                 ],
               ),
               Column(
-                children: const [
-                  Text(
-                    'Doa Keluar Rumah',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w600,
-                      fontSize: 18,
+                children: [
+                  SizedBox(
+                    width: MediaQuery.of(context).size.width * 0.4,
+                    child: Text(
+                      lastRead,
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w600,
+                        fontSize: 18,
+                      ),
                     ),
                   ),
-                  SizedBox(height: 15),
+                  const SizedBox(height: 15),
                 ],
               ),
             ],
