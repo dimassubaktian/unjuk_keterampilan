@@ -10,7 +10,7 @@ Doa Harian adalah aplikasi yang dikerjakan sebagai hasil dari tugas unjuk ketera
 
 ## Screenshoot
 <div align="center">
-<img src="assets/images/screenshoot.png?raw=true" width=30%>
+<img src="assets/images/screenshoot.png?raw=true" width=75%>
 </div>
  
 ## API
