@@ -53,7 +53,10 @@ class AboutPage extends StatelessWidget {
                         ),
                       ),
                       Center(
-                        child: Text('https://doa-doa-api-ahmadramadhan.fly.dev/'),
+                        child: Text(
+                          'https://doa-doa-api-ahmadramadhan.fly.dev/',
+                          textAlign: TextAlign.center,
+                        ),
                       ),
                       Center(
                         child: Text(

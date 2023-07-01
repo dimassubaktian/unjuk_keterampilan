@@ -78,6 +78,7 @@ class DetailPage extends StatelessWidget {
                     children: [
                       const Text(
                         'بِسْمِ اللّهِ الرَّحْمَنِ الرَّحِيْ',
+                        textAlign: TextAlign.center,
                         style: TextStyle(
                           color: Color(0xff1a5c48),
                           fontWeight: FontWeight.w500,
@@ -90,6 +91,7 @@ class DetailPage extends StatelessWidget {
                       ),
                       Text(
                         ayat,
+                        textAlign: TextAlign.center,
                         style: const TextStyle(
                           color: Color(0xff1a5c48),
                           fontWeight: FontWeight.w500,

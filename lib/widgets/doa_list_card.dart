@@ -50,11 +50,15 @@ class DoaListCard extends StatelessWidget {
             ),
             const SizedBox(width: 15),
             // doa name
-            Text(
-              title,
-              style: const TextStyle(
-                color: Color(0xff1a5c48),
-                fontWeight: FontWeight.bold,
+            Expanded(
+              child: Text(
+                title,
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+                style: const TextStyle(
+                  color: Color(0xff1a5c48),
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             )
           ],
