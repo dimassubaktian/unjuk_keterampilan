@@ -1,16 +1,21 @@
-# unjuk_keterampilan
+<div align="center">
+<img src="assets/images/mockup-grid.png?raw=true" width=50%>
+</div>
 
-A new Flutter project.
 
-## Getting Started
+# Doa Harian
+## _Aplikasi untuk menampilkan doa-doa harian_
 
-This project is a starting point for a Flutter application.
+Doa Harian adalah aplikasi yang dikerjakan sebagai hasil dari tugas unjuk keterampilan pada pelatihan prakerja Teknik Membuat Aplikasi Mobile Dengan Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshoot
+<div align="center">
+<img src="assets/images/screenshoot.png?raw=true" width=30%>
+</div>
+ 
+## API
+- https://doa-doa-api-ahmadramadhan.fly.dev/
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## License
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Under Prakerja Law
